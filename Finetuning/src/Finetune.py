@@ -1,27 +1,24 @@
-"""OntoMedQAv3.ipynb
-
 # Fine-tuning a model on a multiple choice task WITHOUT CONTEXT
 
-"""
 import os
 import torch
 import transformers
 from tqdm.auto import tqdm
 import wandb
 
-wandb.init(project="bert-finetuned-woContext-e100-b32")
+wandb.init(project="project_name")
 
 print('Fine tuning the model on MedMCQA dataset....')
 
 ### Model Naming
 
-model_name = "dmis-lab/biobert-base-cased-v1.2"
+model_name = "BioOntoBERT"
 
 print("#########################")
 print(f'Using Model - {model_name}')
 
 finetuned_dir_path = "models/finetuned"
-finetuned_model_name = f"{finetuned_dir_path}/bertlarge-finetuned-wocontext-v1-b32-e3"
+finetuned_model_name = f"{finetuned_dir_path}/bert_test"
   
 if not os.path.exists(finetuned_model_name):
     os.makedirs(finetuned_model_name)
@@ -43,14 +40,6 @@ print('dataset loaded !')
 # Renaming as the BERT will know only the one's with name 'label' or 'labels'
 datasets = datasets.rename_column("cop", "label")
 
-"""### Trimming Dataset"""
-
-print('Filtering dataset based on subject....')
-# datasets = datasets.filter(lambda example: example['subject_name'].startswith('Pathology'))
-
-# datasets = datasets.filter(lambda example: example['choice_type'].startswith('single'))
-
-# datasets = datasets.filter(lambda example, indice: indice % 50 == 0, with_indices=True)
 print(datasets)
 
 ### Show one Example
