@@ -1,3 +1,5 @@
+# Onto2Sen Generating sentences for using Biomedical Ontologies
+
 from owlready2 import *
 from rdflib import Graph, URIRef
 import csv
@@ -10,7 +12,7 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 
 # Load the ontology
-path_onto = "Ontology/Anatomy.owl"
+path_onto = "Ontology-path"
 onto = get_ontology(path_onto).load()
 
 # Initialize a list to store concept labels and synonyms
