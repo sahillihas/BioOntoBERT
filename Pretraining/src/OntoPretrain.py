@@ -1,6 +1,5 @@
-"""BERT PreTraining Corpus.ipynb
+"""PreTraining BERT using Onto2Sen Generated Biomedical ontologies corpus (MLM task)
 
-# PreTraining on Ontology Corpus
 """
 
 from transformers import LineByLineTextDataset
@@ -9,15 +8,15 @@ from transformers import Trainer, TrainingArguments
 from transformers import AutoTokenizer, AutoModelForMaskedLM
 import wandb
 
-wandb.init(project="bert-pretrained-e60-b32")
+wandb.init(project="project-name")
 
 """## Model Naming"""
 
-model_name = "microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext"
+model_name = "bert-base-uncased"
 
 print(f'Pre Training on {model_name}')
 
-corpus_path = "data/OntoData.txt"
+corpus_path = "path-to-onto2sen-corpus"
 
 """## Tokenizer"""
 
