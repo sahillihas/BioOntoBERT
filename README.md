@@ -1,4 +1,4 @@
-# BioOntoBERT
+# BioOntoBERT - BERT + Ontology
 
 This repository contains the code and instructions to pre-train the BioOntoBERT model using the Onto2Sen-generated corpus from biomedical ontologies. The pre-trained BioOntoBERT model is then fine-tuned on the MedMCQA dataset, leading to improved accuracy over baseline BERT models including PubMedBERT for biomedical multiple-choice question-answering tasks with just 0.7% of pre-training data used for PubMedBERT.
 
