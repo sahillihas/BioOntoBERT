@@ -1,4 +1,4 @@
-# 🤖 BioOntoBERT : Combining BERT with Biomedical Ontologies 
+# 🤖 BioOntoBERT 🤖 Combining BERT with Biomedical Ontologies 
 
 📝 [Read the Full Paper](https://ceur-ws.org/Vol-3603/Paper9.pdf) 📝 
 
