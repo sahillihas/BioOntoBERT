@@ -54,4 +54,4 @@ Follow the below steps to pre-train BioOntoBERT on the Onto2Sen biomedical corpu
 
 ![Accuracy comparision of different BERT-based models with BioOntoBERT](results.png)
 
-The above table shows how efficiently BioOntoBERT is outperforming other pre-training BERT models with just 158MB of pre-training data from Biomedical ontologies
+The above table shows how efficiently BioOntoBERT is outperforming other pre-training BERT models with just 158MB of pre-training data from Biomedical ontologies.
