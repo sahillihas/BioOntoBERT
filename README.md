@@ -19,8 +19,8 @@ BioOntoBERT is a domain-specific language model tailored for the biomedical doma
 
 ## Requirements
 
-- Python (>=3.6)
-- PyTorch (>=1.6)
+- Python
+- PyTorch
 - Transformers library (Hugging Face)
 - CUDA (optional but recommended for faster training)
 - MedMCQA dataset
