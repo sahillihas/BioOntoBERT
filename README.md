@@ -7,7 +7,7 @@ This repository provides the code and instructions for pre-training the **BioOnt
 ## Contents
 
 - [Introduction](#introduction)
-- [Requirements](#Setup-Environment)
+- [Setup-Environment](#Setup-Environment)
 - [Pre-training](#pre-training)
 - [Fine-tuning](#fine-tuning)
 - [Results](#results)
