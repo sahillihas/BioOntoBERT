@@ -28,7 +28,7 @@ BioOntoBERT is a domain-specific language model tailored for the biomedical doma
 Install the required packages using:
 
 ```bash
-pip install torch torchvision transformers
+pip install -r requirements.txt
 ```
 
 ## Usage
