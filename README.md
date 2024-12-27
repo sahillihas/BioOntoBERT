@@ -25,9 +25,6 @@ Install the required packages using:
 pip install -r requirements.txt
 ```
 
-## Usage
-Follow the below steps to pre-train BioOntoBERT on the Onto2Sen biomedical corpus and fine-tune it on the MedMCQA dataset:
-
 ## Pre-training
 - Data Preparation: Prepare the Onto2Sen-generated biomedical corpus in text format for pre-training.
 
