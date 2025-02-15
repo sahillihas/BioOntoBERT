@@ -33,7 +33,7 @@ pip install -r requirements.txt
 - Run Pre-training: Execute the pre-training script
 
 
-## Fine-tuning
+## Finetuning
 - Data Preparation: Obtain the MedMCQA dataset and preprocess it for fine-tuning.
 
 - Model Configuration: Adjust the fine-tuning configuration in finetune_config.json according to your hardware and preferences.
