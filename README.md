@@ -15,7 +15,7 @@ This repository provides the code and instructions for pre-training the **BioOnt
 
 ## Introduction
 
-BioOntoBERT is a domain-specific language model tailored for the biomedical domain. It is pre-trained on a large corpus generated from biomedical ontologies using the Onto2Sen methodology, which helps capture domain-specific context and semantics. This pre-trained model is then fine-tuned on the MedMCQA dataset, a benchmark for biomedical question answering, to improve its performance on this specific task.
+BioOntoBERT is a domain specific language model tailored for the biomedical domain. It is pre-trained on a large corpus generated from biomedical ontologies using the Onto2Sen methodology, which helps capture domain-specific context and semantics. This pre-trained model is then fine-tuned on the MedMCQA dataset, a benchmark for biomedical question answering, to improve its performance on this specific task.
 
 ## Setup-Environment
 
